@@ -26,8 +26,8 @@ public class fc
         Socket socket = server.accept();
         System.out.println("new request accepted");
         
-        double min = Math.ceil(1); double max = Math.floor(27);
-        int random = (int)Math.round(Math.floor(Math.random() * (max - min) + min));
+        //double min = Math.ceil(1); double max = Math.floor(27);
+        //int random = (int)Math.round(Math.floor(Math.random() * (max - min) + min));
        
         //String i = String.valueOf(((Math.random()*(27-1)+1)));
        // String line32 = Files.readAllLines(Paths.get("src/main/java/ibf2021/day6/FortuneCookie.txt")).get(random);   //src/main/java/ibf2021/day6/
