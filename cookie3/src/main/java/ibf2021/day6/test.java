@@ -17,7 +17,7 @@ public class test {
         System.out.println(f);
 
        try{
-        String line32 = Files.readAllLines(Paths.get("FortuneCookie.txt")).get(2);
+        String line32 = Files.readAllLines(Paths.get("src/main/java/ibf2021/day6/FortuneCookie.txt")).get(2);
         System.out.println(line32);
        }catch(IOException e){System.err.println("l");};
         
