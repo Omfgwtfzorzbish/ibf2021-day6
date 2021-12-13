@@ -27,7 +27,7 @@ public class fc
         Socket socket = server.accept();
         System.out.println("new request accepted");
 
-        handler cookieHandler = new handler(socket);
+        Handler cookieHandler = new Handler(socket);
         new Thread(cookieHandler).start();
 /*
         double min = Math.ceil(1); double max = Math.floor(27);

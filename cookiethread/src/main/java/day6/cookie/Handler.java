@@ -21,7 +21,7 @@ public class Handler implements Runnable{
         
         //String i = String.valueOf(((Math.random()*(27-1)+1)));
         
-        String line32 = Files.readAllLines(Paths.get("FortuneCookie.txt")).get(random);
+        String line32 = Files.readAllLines(Paths.get("src/main/java/day6/cookie/FortuneCookie.txt")).get(random);
 
         PrintStream ps = new PrintStream(clientSocket.getOutputStream());
         BufferedReader br = new BufferedReader(new StringReader(line32));
